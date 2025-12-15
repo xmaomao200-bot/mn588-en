@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MN521 | Johor Bahru Massage · Travel Companion · Escort Info</title>
+    <link rel="icon" type="image/png"
+          href="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/logo/512logo.png">
+
+    <!-- SEO -->
+    <meta name="description" content="MN521 is an information hub for Johor Bahru massage, travel companions, and escort services. Covers KSL, Johor Bahru city, Bukit Indah, and nearby areas for Singapore visitors.">
+    <meta name="keywords" content="Johor Bahru massage, JB escort, Johor Bahru travel companion, KSL massage, JB Chinese escort, JB Thai escort, JB Vietnamese escort, Bukit Indah massage, Malaysia escort">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MN521 | Johor Bahru Massage · Travel Companion · Escort Info">
+    <meta property="og:description" content="Real photos, curated info, and booking contacts for Johor Bahru massage, escorts, and travel companions.">
+    <meta property="og:url" content="https://mn521.com/">
+    <meta property="og:image" content="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/images/mnhear%20(2).png">
+    <meta property="og:site_name" content="MN521">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MN521 | Johor Bahru Massage · Travel Companion · Escort Info">
+    <meta name="twitter:description" content="MN521 is an information hub for Johor Bahru massage, travel companions, and escort services.">
+    <meta name="twitter:image" content="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/images/mnhear%20(2).png">
+
+    <style>
+        :root {
+            --black: #000000;
+            --white: #ffffff;
+            --border: #444444;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                         "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--black);
+            color: var(--white);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Header */
+        .header {
+            background-color: var(--black);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 0;
+        }
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            width: auto;
+            display: block;
+        }
+
+        .nav-links a {
+            color: var(--white);
+            margin-left: 22px;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Language switch */
+        .lang-switch{
+            display:flex;
+            align-items:center;
+            gap:0;
+            border:1px solid rgba(255,255,255,.6);
+            border-radius:999px;
+            overflow:hidden;
+            background: rgba(255,255,255,.06);
+        }
+        .lang-item{
+            display:inline-flex;
+            align-items:center;
+            justify-content:center;
+            padding:8px 14px;
+            font-size:13px;
+            letter-spacing:0.5px;
+            color:#fff;
+            opacity:.9;
+            text-decoration:none;
+            transition: .2s ease;
+        }
+        .lang-item:hover{
+            background: rgba(255,255,255,.14);
+        }
+        .lang-item.active{
+            background:#fff;
+            color:#000;
+            font-weight:700;
+            cursor:default;
+        }
+        .lang-divider{
+            display:none;
+        }
+
+        /* Hero */
+        .hero-banner {
+            position: relative;
+            height: 420px;
+            background-image: url('https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/images/mnhear%20(2).png');
+            background-size: cover;
+            background-position: 50% 30%;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.56);
+            z-index: 1;
+        }
+        .hero-inner {
+            position: relative;
+            z-index: 2;
+        }
+        .hero-title-main {
+            font-size: 44px;
+            font-weight: 700;
+            color: #fff;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.85);
+            margin: 0 0 10px 0;
+            letter-spacing: 2px;
+        }
+        .hero-title-sub {
+            font-size: 18px;
+            color: #fff;
+            opacity: 0.95;
+            margin: 0;
+        }
+        .hero-cta{
+            margin-top:22px;
+            display:flex;
+            gap:12px;
+            justify-content:center;
+            flex-wrap:wrap;
+        }
+        .hero-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 20px;
+            border-radius: 999px;
+            border: 1px solid #fff;
+            background: rgba(247, 244, 244, 0.06);
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.25s ease, color 0.25s ease, transform 0.15s ease;
+        }
+        .hero-btn-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+        }
+        .hero-btn:hover {
+            background: #ffffff;
+            color: #000000;
+            transform: translateY(-1px);
+        }
+        .hero-btn-secondary{
+            background: rgba(255,255,255,0.02);
+        }
+        .hero-btn-secondary:hover{
+            background:#ffffff;
+            color:#000000;
+        }
+
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service-card {
+            background: #111;
+            border: 1px solid var(--border);
+            padding: 20px;
+            text-align: center;
+            transition: .3s;
+            border-radius: 6px;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgba(255,255,255,.08);
+        }
+        .card-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .card-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: var(--white);
+            margin: 0 auto 20px auto;
+            padding-bottom: 5px;
+            border-bottom: 1px solid var(--border);
+            text-align: center;
+            width: 100%;
+            display: block;
+            letter-spacing: 1px;
+        }
+
+        .tags-list {
+            margin-top: 10px;
+        }
+        .tag-item {
+            display: inline-block;
+            background: #111;
+            padding: 8px 16px;
+            margin: 6px;
+            border: 1px solid var(--border);
+            font-size: 14px;
+            transition: .3s;
+            border-radius: 20px;
+        }
+        .tag-item:hover {
+            background: var(--white);
+            color: var(--black);
+        }
+
+        .testimonial-card {
+            background: #111;
+            border-left: 3px solid var(--border);
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .testimonial-card p {
+            margin: 0;
+        }
+        .client {
+            color: var(--white);
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border);
+            padding: 15px 0;
+            text-align: center;
+        }
+        .faq-question {
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        .faq-answer {
+            margin-top: 6px;
+            font-size: 14px;
+            color: #dddddd;
+            max-width: 780px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--black);
+            padding: 40px 0 20px;
+            border-top: 1px solid var(--border);
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 30px;
+            text-align: left;
+        }
+        .footer h4 {
+            color: var(--white);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .footer p {
+            font-size: 13px;
+            color: #ddd;
+            margin: 4px 0;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+        }
+        .social-icons svg {
+            display: block;
+            transition: 0.25s ease;
+        }
+        .social-icons a:hover svg {
+            stroke: #ccefff;
+        }
+        .text-link {
+            color: #ccefff;
+            text-decoration: none;
+            border-bottom: 1px dashed #666;
+            padding-bottom: 2px;
+            transition: 0.2s;
+        }
+        .text-link:hover {
+            color: #ffffff;
+            border-bottom-color: #ffffff;
+            opacity: 1;
+        }
+
+        /* Carousel */
+        .carousel-section {
+            background: #000;
+            padding: 20px 0;
+            border-top: 1px solid var(--border, #444);
+            border-bottom: 1px solid var(--border, #444);
+            overflow: hidden;
+        }
+        .carousel-wrapper {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .carousel-inner {
+            display: flex;
+            width: max-content;
+            animation: carousel-scroll 30s linear infinite;
+            gap: 0;
+        }
+        .carousel-track {
+            display: flex;
+            gap: 16px;
+        }
+        .carousel-card {
+            width: 260px;
+            height: 320px;
+            flex: 0 0 auto;
+            border: 1px solid var(--border, #444);
+            border-radius: 6px;
+            overflow: hidden;
+            background: #111;
+        }
+        .carousel-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        @keyframes carousel-scroll {
+            0%   { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* Team */
+        .team-grid {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+        }
+        .team-card {
+            background: #111;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: left;
+            transition: 0.25s;
+        }
+        .team-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 15px rgba(255,255,255,0.08);
+        }
+        .team-img {
+            width: 100%;
+            overflow: hidden;
+        }
+        .team-img img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            object-position: center 35%;
+            display: block;
+        }
+        .team-info {
+            padding: 10px 14px 12px;
+        }
+        .team-flag {
+            font-size: 20px;
+            margin-right: 6px;
+        }
+        .team-title {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .team-sub {
+            font-size: 13px;
+            color: #ccc;
+            margin-top: 4px;
+        }
+
+        /* Areas */
+        .area-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 18px;
+        }
+        .area-card {
+            background: #111;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 14px 16px 16px;
+            text-align: left;
+            transition: 0.25s;
+        }
+        .area-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 15px rgba(255,255,255,0.06);
+        }
+        .area-title {
+            font-size: 15px;
+            font-weight: 600;
+            margin: 0 0 6px;
+        }
+        .area-card p {
+            margin: 0;
+            font-size: 13px;
+            color: #ddd;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .card-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .area-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+        @media (max-width: 600px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .nav-content {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .carousel-card {
+                width: 180px;
+                height: 260px;
+            }
+            .carousel-wrapper {
+                width: 100%;
+            }
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+            .team-img img {
+                height: 210px;
+            }
+            .area-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero-banner {
+                height: 320px;
+                background-position: 50% 40%;
+                padding: 0 16px;
+            }
+            .hero-title-main {
+                font-size: 28px;
+                letter-spacing: 1px;
+            }
+            .hero-title-sub {
+                font-size: 14px;
+            }
+            .hero-btn {
+                font-size: 12px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="container nav-content">
+        <div class="logo">
+            <img src="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/logo/512logo.png" alt="MN521 Logo">
+        </div>
+
+        <div class="lang-switch">
+            <a class="lang-item" href="mn总站.html">中文</a>
+            <span class="lang-divider">|</span>
+            <span class="lang-item active">EN</span>
+        </div>
+    </div>
+</header>
+
+<section class="hero-banner">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+        <h1 class="hero-title-main">MN521 Johor Bahru Guide</h1>
+        <h2 class="hero-title-sub">Real photos · Faster responses · Covering KSL, CIQ, Bukit Indah, R&F Bay</h2>
+        <div class="hero-cta">
+            <button class="hero-btn" onclick="window.location.href='https://t.me/JBmnXS'">
+                <img class="hero-btn-icon" src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/4f18f662-39a7-416f-ebf8-51aa5b8aae00/public" alt="TG">
+                Telegram
+            </button>
+            <button class="hero-btn hero-btn-secondary" onclick="window.location.href='https://mn521.com/'">
+                Booking
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Scrolling gallery -->
+<section class="carousel-section">
+    <div class="carousel-wrapper">
+        <div class="carousel-inner">
+            <div class="carousel-track">
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a0090785-936d-433a-0c44-fa251ebedc00/public" alt="MN521 gallery">
+                </div>
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1872a7e1-6721-4437-f383-4c8c6a3f9c00/public" alt="MN521 gallery">
+                </div>
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/8a2a5087-b3cd-426a-cc8e-0a9f8b807100/public" alt="MN521 gallery">
+                </div>
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a2a2640f-e7cf-478c-0bfa-4ad57a944500/public" alt="MN521 gallery">
+                </div>
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1b0b307a-d9da-42ac-e7e6-44dcd9d28300/public" alt="MN521 gallery">
+                </div>
+            </div>
+            <div class="carousel-track">
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a0090785-936d-433a-0c44-fa251ebedc00/public" alt="MN521 gallery">
+                </div>
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1872a7e1-6721-4437-f383-4c8c6a3f9c00/public" alt="MN521 gallery">
+                </div>
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/8a2a5087-b3cd-426a-cc8e-0a9f8b807100/public" alt="MN521 gallery">
+                </div>
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a2a2640f-e7cf-478c-0bfa-4ad57a944500/public" alt="MN521 gallery">
+                </div>
+                <div class="carousel-card">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1b0b307a-d9da-42ac-e7e6-44dcd9d28300/public" alt="MN521 gallery">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="services">
+    <h2 class="section-title">Key Highlights</h2>
+    <div class="card-grid">
+        <div class="service-card">
+            <div class="card-icon">
+                <svg width="38" height="38" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="7" r="4"></circle>
+                    <path d="M6 21v-2a6 6 0 0 1 12 0v2"></path>
+                </svg>
+            </div>
+            <div class="card-title">Diverse team</div>
+            <p>
+                <a href="https://mn521.com/girl.html?id=49" class="text-link">Thai style</a> ·
+                <a href="https://mn521.com/girl.html?id=46" class="text-link">Vietnamese</a> ·
+                <a href="https://mn521.com/girl.html?id=51" class="text-link">Chinese</a> ·
+                <a href="https://mn521.com/girl.html?id=29" class="text-link">Local Malays</a>. Multiple options.
+            </p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <svg width="38" height="38" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6l7-4z"></path>
+                </svg>
+            </div>
+            <div class="card-title">Discreet and safe</div>
+            <p>
+                Low profile, suitable for
+                <a href="https://mn521.com/girl.html?id=16" class="text-link">Singapore weekend trips</a>
+                and quick
+                <a href="https://mn521.com/girl.html?id=38" class="text-link">short stays</a>.
+            </p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <svg width="38" height="38" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"></path>
+                </svg>
+            </div>
+            <div class="card-title">Fast booking</div>
+            <p>
+                <a href="https://mn521.com/girl.html?id=47" class="text-link">Independent escorts</a> ·
+                <a href="https://mn521.com/girl.html?id=45" class="text-link">Companions</a> ·
+                <a href="https://mn521.com/girl.html?id=28" class="text-link">Massage</a>.
+                Quicker response for
+                <a href="https://mn521.com/girl.html?id=23" class="text-link">last-minute requests</a>.
+            </p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <svg width="38" height="38" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M3 9l9 13 9-13-4-6H7l-4 6z"></path>
+                </svg>
+            </div>
+            <div class="card-title">High value</div>
+            <p>
+                Compared with Singapore pricing,
+                <a href="https://mn521.com/girl.html?id=41" class="text-link">JB massage</a> and
+                <a href="https://mn521.com/girl.html?id=17" class="text-link">Malay escorts</a>
+                are more budget friendly overall.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="team">
+    <h2 class="section-title">International Team</h2>
+    <div class="team-grid">
+        <div class="team-card" onclick="window.location.href='https://t.me/jbchuishui'" style="cursor:pointer;">
+            <div class="team-img">
+                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/4f18f662-39a7-416f-ebf8-51aa5b8aae00/public" alt="Thai therapist">
+            </div>
+            <div class="team-info">
+                <span class="team-flag">🇹🇭</span>
+                <span class="team-title">Thai therapists</span>
+                <div class="team-sub">Thai independent escorts · soft touch massage · technique focused</div>
+            </div>
+        </div>
+        <div class="team-card" onclick="window.location.href='https://t.me/JBsijishe'" style="cursor:pointer;">
+            <div class="team-img">
+                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/21f19ef8-fce0-4636-f3e0-277e92214d00/public" alt="Vietnamese therapist">
+            </div>
+            <div class="team-info">
+                <span class="team-flag">🇻🇳</span>
+                <span class="team-title">Vietnamese therapists</span>
+                <div class="team-sub">Friendly, chatty, and willing to accompany for outings</div>
+            </div>
+        </div>
+        <div class="team-card" onclick="window.location.href='https://t.me/JBmnXS'" style="cursor:pointer;">
+            <div class="team-img">
+                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/5c8f32f3-9c9e-436c-46b6-03f416585e00/public" alt="Chinese therapist">
+            </div>
+            <div class="team-info">
+                <span class="team-flag">🇨🇳</span>
+                <span class="team-title">Chinese therapists</span>
+                <div class="team-sub">Easier communication · familiar habits · smooth arrangement</div>
+            </div>
+        </div>
+        <div class="team-card" onclick="window.location.href='https://mn521.com/'" style="cursor:pointer;">
+            <div class="team-img">
+                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/d5ff36c6-1b09-405c-45bd-7aa828882600/public" alt="Local Malay therapist">
+            </div>
+            <div class="team-info">
+                <span class="team-flag">🇲🇾</span>
+                <span class="team-title">Local Malay</span>
+                <div class="team-sub">Rare style · unique experience for those who want something different</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="areas">
+    <h2 class="section-title">Service Areas</h2>
+    <div class="area-grid">
+        <div class="area-card">
+            <h3 class="area-title">Johor Bahru City</h3>
+            <p>
+                Massage, independent escorts, and companions clustered in city center.
+                Best for day trips from Singapore and quick visits after crossing the checkpoint.
+            </p>
+        </div>
+        <div class="area-card">
+            <h3 class="area-title">KSL Area</h3>
+            <p>
+                Around KSL mall: many massage shops, Thai and Vietnamese options.
+                Easy food and shopping, good for first-time visitors.
+            </p>
+        </div>
+        <div class="area-card">
+            <h3 class="area-title">R&F Bay and Bukit Indah</h3>
+            <p>
+                More independent escorts and Chinese/Vietnamese options.
+                Bars, homestays, and night spots nearby for dates or overnight plans.
+            </p>
+        </div>
+        <div class="area-card">
+            <h3 class="area-title">CIQ / Woodlands side</h3>
+            <p>
+                Close to the border, short rides and quick routes fit same-day round trips from Singapore.
+            </p>
+        </div>
+        <div class="area-card">
+            <h3 class="area-title">Forest City</h3>
+            <p>
+                Quiet sea-view apartments with more independent escorts.
+                Suits private, longer stays with steady pacing.
+            </p>
+        </div>
+        <div class="area-card">
+            <h3 class="area-title">Singapore–JB Line</h3>
+            <p>
+                Tailored for travelers coming from Singapore: companions, escorts, and Thai options along the main route.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Client Voices</h2>
+    <div class="testimonial-card">
+        <p>"Came from Singapore for a same-day trip. Massage and escort were arranged smoothly in one go."</p>
+        <div class="client">— Visitor from SG</div>
+    </div>
+    <div class="testimonial-card">
+        <p>"Cheaper than Singapore, more choices for independent escorts. Easy to meet near KSL."</p>
+        <div class="client">— JB customer</div>
+    </div>
+    <div class="testimonial-card">
+        <p>"Massage skills are solid and clean environment. Works well for regular relaxation."</p>
+        <div class="client">— R&F Bay client</div>
+    </div>
+</section>
+
+<section class="container">
+    <h2 class="section-title">FAQ</h2>
+    <div class="faq-item">
+        <div class="faq-question">How to book?</div>
+        <div class="faq-answer">
+            Browse highlights and team info first, then contact via Telegram/WhatsApp links on the page.
+            Confirm time, area, and details directly with the provider. MN521 only displays info and does not take payments.
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">How long from Singapore to JB?</div>
+        <div class="faq-answer">
+            Typically 40–90 minutes depending on checkpoint traffic. Popular areas include KSL, R&F Bay, Bukit Indah, and CIQ surroundings.
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Are the photos real?</div>
+        <div class="faq-answer">
+            Photos are real shots. Check recent updates and reviews, and reconfirm details with the provider before heading over.
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Does MN521 participate in transactions?</div>
+        <div class="faq-answer">
+            No. MN521 is an info and navigation site only. All communication and payments are between you and the provider. Please follow local laws.
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="contact">
+    <div class="container footer-grid">
+        <div>
+            <h4>About MN521</h4>
+            <p>MN521 curates Johor Bahru massage, travel companion, and escort information covering popular areas for Singapore visitors, aiming for better value options.</p>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <p>WhatsApp: +60 1668 46572</p>
+            <p>Email: jbmn521@gmail.com</p>
+        </div>
+        <div>
+            <h4>Social</h4>
+            <div class="social-icons">
+                <a href="https://x.com/jbmn521666" title="Twitter / X" target="_blank">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8">
+                        <path d="M18 2L12 9l-3-3-7 8 3 3 4-5 3 3 9-10z"/>
+                    </svg>
+                </a>
+                <a href="https://mn521.com/" title="TikTok" target="_blank">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8">
+                        <path d="M12 3v12a4 4 0 1 1-4-4h1" />
+                        <path d="M16 3a5 5 0 0 0 5 5" />
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61584766535118" title="Facebook" target="_blank">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8">
+                        <path d="M18 2h-3a4 4 0 0 0-4 4v3H8v4h3v9h4v-9h3l1-4h-4V6a1 1 0 0 1 1-1h3z" />
+                    </svg>
+                </a>
+                <a href="https://t.me/JBsijishe" title="Telegram" target="_blank">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8">
+                        <path d="M22 2 11 13" />
+                        <path d="m22 2-6 20-5-9-9-4Z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="text-align:center; padding-top:20px; font-size:12px; color:#888;">
+        © 2025 MN521. All Rights Reserved.
+    </div>
+</footer>
+
+</body>
+</html>

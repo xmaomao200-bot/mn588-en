@@ -551,6 +551,85 @@
                 padding: 8px 16px;
             }
         }
+        /* =========================
+   Long-form Guide Styling (EN)
+========================= */
+
+/* Improve reading width and alignment */
+.faq-article,
+.guide-article {
+    max-width: 820px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* Card-style article container */
+.faq-article,
+.guide-article {
+    background: #0d0d0d;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 30px 28px;
+    margin-top: 22px;
+}
+
+/* Section headers inside articles */
+.faq-article h3,
+.guide-article h3 {
+    font-size: 18px;
+    margin: 30px 0 14px;
+    padding-left: 14px;
+    border-left: 3px solid #ffffff;
+    letter-spacing: 0.5px;
+}
+
+/* Paragraph spacing */
+.faq-article p,
+.guide-article p {
+    margin: 0 0 16px;
+    color: #dddddd;
+}
+
+/* Article image styling */
+.guide-image {
+    margin: 28px auto;
+    text-align: center;
+}
+
+.guide-image img {
+    width: 100%;
+    max-width: 720px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.65);
+}
+
+.guide-image figcaption {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 8px;
+}
+
+/* Visual separation between sections */
+#faq-article {
+    margin-bottom: 70px;
+}
+
+/* Mobile refinement */
+@media (max-width: 600px) {
+    .faq-article,
+    .guide-article {
+        padding: 22px 18px;
+        font-size: 14px;
+    }
+
+    .faq-article h3,
+    .guide-article h3 {
+        font-size: 16px;
+    }
+}
+
     </style>
 </head>
 <body>
@@ -558,7 +637,13 @@
 <header class="header">
     <div class="container nav-content">
         <div class="logo">
-            <img src="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/logo/512logo.png" alt="MN521 Logo">
+           <img
+  src="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/logo/512logo.png"
+  alt="MN521 Logo"
+  width="40"
+  height="40"
+  fetchpriority="high">
+
         </div>
 
         <div class="lang-switch">
@@ -576,11 +661,23 @@
         <h2 class="hero-title-sub">Real photos · Faster responses · Covering KSL, CIQ, Bukit Indah, R&F Bay</h2>
         <div class="hero-cta">
                       <a href="https://mn521.com/" class="hero-btn">
-                <img class="hero-btn-icon" src="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/logo/512logo.png" alt="MN521 Icon">
+                <img
+  class="hero-btn-icon"
+  src="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/logo/512logo.png"
+  alt="MN521 Icon"
+  width="20"
+  height="20">
+
                 Book now
             </a>
             <a href="https://t.me/JBmnXS" class="hero-btn hero-btn-secondary" target="_blank" rel="noopener">
-                <img class="hero-btn-icon" src="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/logo/512logo.png" alt="MN521 Icon">
+                <img
+  class="hero-btn-icon"
+  src="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/logo/512logo.png"
+  alt="MN521 Icon"
+  width="20"
+  height="20">
+
                 Join chat
             </a>
         </div>
@@ -593,36 +690,36 @@
         <div class="carousel-inner">
             <div class="carousel-track">
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a0090785-936d-433a-0c44-fa251ebedc00/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a0090785-936d-433a-0c44-fa251ebedc00/public" alt="MN521 gallery" width="260" height="320">
                 </div>
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1872a7e1-6721-4437-f383-4c8c6a3f9c00/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1872a7e1-6721-4437-f383-4c8c6a3f9c00/public" alt="MN521 gallery" width="260" height="320">
                 </div>
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/8a2a5087-b3cd-426a-cc8e-0a9f8b807100/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/8a2a5087-b3cd-426a-cc8e-0a9f8b807100/public" alt="MN521 gallery" width="260" height="320">
                 </div>
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a2a2640f-e7cf-478c-0bfa-4ad57a944500/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a2a2640f-e7cf-478c-0bfa-4ad57a944500/public" alt="MN521 gallery" width="260" height="320">
                 </div>
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1b0b307a-d9da-42ac-e7e6-44dcd9d28300/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1b0b307a-d9da-42ac-e7e6-44dcd9d28300/public" alt="MN521 gallery" width="260" height="320">
                 </div>
             </div>
             <div class="carousel-track">
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a0090785-936d-433a-0c44-fa251ebedc00/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a0090785-936d-433a-0c44-fa251ebedc00/public" alt="MN521 gallery" width="260" height="320">
                 </div>
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1872a7e1-6721-4437-f383-4c8c6a3f9c00/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1872a7e1-6721-4437-f383-4c8c6a3f9c00/public" alt="MN521 gallery" width="260" height="320">
                 </div>
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/8a2a5087-b3cd-426a-cc8e-0a9f8b807100/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/8a2a5087-b3cd-426a-cc8e-0a9f8b807100/public" alt="MN521 gallery" width="260" height="320">
                 </div>
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a2a2640f-e7cf-478c-0bfa-4ad57a944500/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a2a2640f-e7cf-478c-0bfa-4ad57a944500/public" alt="MN521 gallery" width="260" height="320">
                 </div>
                 <div class="carousel-card">
-                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1b0b307a-d9da-42ac-e7e6-44dcd9d28300/public" alt="MN521 gallery">
+                    <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1b0b307a-d9da-42ac-e7e6-44dcd9d28300/public" alt="MN521 gallery" width="260" height="320">
                 </div>
             </div>
         </div>
@@ -696,9 +793,9 @@
 <section class="container" id="team">
     <h2 class="section-title">International Team</h2>
     <div class="team-grid">
-        <div class="team-card" onclick="window.location.href='https://t.me/JBmnXS'" style="cursor:pointer;">
+        <div class="team-card" onclick="window.location.href='https://t.me/jbmnziyous'" style="cursor:pointer;">
             <div class="team-img">
-                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/4f18f662-39a7-416f-ebf8-51aa5b8aae00/public" alt="Thai therapist">
+                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/4f18f662-39a7-416f-ebf8-51aa5b8aae00/public" alt="Thai therapist" width="900" height="1200">
             </div>
             <div class="team-info">
                 <span class="team-flag">🇹🇭</span>
@@ -708,7 +805,7 @@
         </div>
         <div class="team-card" onclick="window.location.href='https://t.me/JBmnXS'" style="cursor:pointer;">
             <div class="team-img">
-                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/21f19ef8-fce0-4636-f3e0-277e92214d00/public" alt="Vietnamese therapist">
+                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/21f19ef8-fce0-4636-f3e0-277e92214d00/public" alt="Vietnamese therapist" width="900" height="1200">
             </div>
             <div class="team-info">
                 <span class="team-flag">🇻🇳</span>
@@ -716,9 +813,9 @@
                 <div class="team-sub">Friendly, chatty, and willing to accompany for outings</div>
             </div>
         </div>
-        <div class="team-card" onclick="window.location.href='https://t.me/JBmnXS'" style="cursor:pointer;">
+        <div class="team-card" onclick="window.location.href='https://t.me/JBjinhaiwan'" style="cursor:pointer;">
             <div class="team-img">
-                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/5c8f32f3-9c9e-436c-46b6-03f416585e00/public" alt="Chinese therapist">
+                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/5c8f32f3-9c9e-436c-46b6-03f416585e00/public" alt="Chinese therapist" width="900" height="1200">
             </div>
             <div class="team-info">
                 <span class="team-flag">🇨🇳</span>
@@ -728,7 +825,7 @@
         </div>
         <div class="team-card" onclick="window.location.href='https://mn521.com/'" style="cursor:pointer;">
             <div class="team-img">
-                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/d5ff36c6-1b09-405c-45bd-7aa828882600/public" alt="Local Malay therapist">
+                <img src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/d5ff36c6-1b09-405c-45bd-7aa828882600/public" alt="Local Malay therapist" width="900" height="1200">
             </div>
             <div class="team-info">
                 <span class="team-flag">🇲🇾</span>
@@ -801,41 +898,144 @@
     </div>
 </section>
 
-<section class="container">
-    <h2 class="section-title">FAQ</h2>
-    <div class="faq-item">
-        <div class="faq-question">How to book?</div>
-        <div class="faq-answer">
-            Browse highlights and team info first, then contact via Telegram/WhatsApp links on the page.
-            Confirm time, area, and details directly with the provider. MN521 only displays info and does not take payments.
-        </div>
-    </div>
-    <div class="faq-item">
-        <div class="faq-question">How long from Singapore to JB?</div>
-        <div class="faq-answer">
-            Typically 40–90 minutes depending on checkpoint traffic. Popular areas include KSL, R&F Bay, Bukit Indah, and CIQ surroundings.
-        </div>
-    </div>
-    <div class="faq-item">
-        <div class="faq-question">Are the photos real?</div>
-        <div class="faq-answer">
-            Photos are real shots. Check recent updates and reviews, and reconfirm details with the provider before heading over.
-        </div>
-    </div>
-    <div class="faq-item">
-        <div class="faq-question">Does MN521 participate in transactions?</div>
-        <div class="faq-answer">
-            No. MN521 is an info and navigation site only. All communication and payments are between you and the provider. Please follow local laws.
-        </div>
-    </div>
+<section class="container" id="faq-article">
+  <h2 class="section-title">
+    Johor Bahru Massage & Companion Guide (For Singapore Visitors)
+  </h2>
+
+  <article class="faq-article">
+
+    <h3>Is it safe to visit Johor Bahru for massage or companion services?</h3>
+    <p>
+      For many Singapore visitors, Johor Bahru is often seen as a convenient
+      “backyard getaway.” In general, choosing well-known areas, visiting during
+      normal business hours, and understanding basic information in advance
+      can help keep the experience manageable.
+      Avoid last-minute late-night decisions and requests for large upfront payments.
+    </p>
+
+    <h3>What is the difference between massage, companions, and independent providers?</h3>
+    <p>
+      Massage services usually focus on relaxation and are suitable for shorter visits.
+      Companion services emphasize company, conversation, or light outings.
+      Independent providers typically operate without a fixed venue and offer
+      more flexible arrangements. Each option suits different preferences and schedules.
+    </p>
+
+    <h3>Which areas are recommended for first-time visitors?</h3>
+    <p>
+      For first-time visitors, areas such as KSL, CIQ surroundings,
+      and R&F Princess Cove are easier to navigate.
+      These locations offer convenient transport, dining options,
+      and a wider range of information, making them suitable for short trips
+      or same-day returns from Singapore.
+    </p>
+
+    <h3>How can visitors reduce risks and avoid unpleasant experiences?</h3>
+    <p>
+      Check whether information is regularly updated and photos appear consistent.
+      Confirm key details such as time and location through direct communication.
+      Avoid paying large deposits in advance and be cautious of pressure-based messages.
+      Clear communication and reasonable expectations help reduce risks.
+    </p>
+
+    <h3>Typical travel time from Singapore to Johor Bahru</h3>
+    <p>
+      Traveling from central Singapore to Johor Bahru usually takes
+      between 40 and 90 minutes, depending on checkpoint traffic.
+      Many visitors prefer crossing in the morning, arranging activities in the afternoon,
+      and returning in the evening for a more relaxed schedule.
+    </p>
+
+  </article>
 </section>
+<section class="container" id="about-guide">
+  <h2 class="section-title">
+    About MN521｜Johor Bahru Information Guide for Singapore Visitors
+  </h2>
+
+  <article class="guide-article">
+
+    <p>
+      MN521 is an information-based platform designed for visitors traveling
+      between <strong>Singapore and Johor Bahru</strong>.
+      It curates reference content related to massage, travel companions,
+      and independent escort options in popular JB areas.
+      MN521 does not participate in offline transactions and focuses on
+      organizing publicly available information for easier planning.
+    </p>
+
+    <figure class="guide-image">
+      <img
+        src="https://pub-332e9390ffd24b43a02cf5c26f826729.r2.dev/images/mnhear%20(2).png"
+        alt="MN521 Johor Bahru guide homepage preview"
+        width="1200"
+        height="400"
+        loading="lazy">
+      <figcaption>MN521 homepage overview for browsing and planning</figcaption>
+    </figure>
+
+    <h3>Why do Singapore visitors often choose Johor Bahru?</h3>
+    <p>
+      With its close proximity and convenient border access,
+      Johor Bahru is often considered a practical “weekend getaway”
+      for Singapore residents.
+      Many visitors come for massage, dining, shopping,
+      or casual companionship during short stays.
+      Compared to Singapore, JB offers more flexible options
+      and a slower pace for relaxation.
+    </p>
+
+    <figure class="guide-image">
+      <img
+        src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/a0090785-936d-433a-0c44-fa251ebedc00/public"
+        alt="Johor Bahru massage and leisure environment"
+        width="1200"
+        height="800"
+        loading="lazy">
+      <figcaption>Typical massage and leisure environment in Johor Bahru</figcaption>
+    </figure>
+
+    <h3>How is information on MN521 organized?</h3>
+    <p>
+      Content on MN521 is categorized by area
+      (such as KSL, CIQ, R&F Princess Cove, Bukit Indah)
+      and by service type (massage, companions, independent providers).
+      Visitors can review the information and make their own decisions
+      based on timing, budget, and personal preferences.
+    </p>
+
+    <p>
+      All communication and arrangements are handled directly
+      between visitors and third parties.
+      MN521’s role is to reduce information gaps,
+      not to replace individual judgment.
+    </p>
+
+    <figure class="guide-image">
+      <img
+        src="https://imagedelivery.net/QifyjLZnubOn-Fn2fFxiYA/1872a7e1-6721-4437-f383-4c8c6a3f9c00/public"
+        alt="Singapore to Johor Bahru travel route overview"
+        width="600"
+        height="800"
+        loading="lazy">
+      <figcaption>Common travel routes between Singapore and Johor Bahru</figcaption>
+    </figure>
+
+    <h3>Tips for first-time visitors</h3>
+    <p>
+      First-time visitors are advised to choose well-known areas,
+      confirm details in advance, and plan activities during normal hours.
+      Understanding travel routes and avoiding rushed decisions
+      can help make the experience smoother and more enjoyable.
+    </p>
+
+  </article>
+</section>
+
 
 <footer class="footer" id="contact">
     <div class="container footer-grid">
-        <div>
-            <h4>About MN521</h4>
-            <p>MN521 curates Johor Bahru massage, travel companion, and escort information covering popular areas for Singapore visitors, aiming for better value options.</p>
-        </div>
         <div>
             <h4>Contact</h4>
             <p>WhatsApp: +60 1668 46572</p>
